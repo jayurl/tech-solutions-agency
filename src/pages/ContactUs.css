@@ -1,0 +1,83 @@
+/* src/pages/ContactUs.css */
+.service-page {
+    padding: 3em 0;
+    background: #000000;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.service-page h1 {
+    margin-bottom: 1em;
+    color: #fdb44b;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.service-page p {
+    max-width: 600px;
+    margin: 0 auto 2em;
+    color: #fdb44b;
+}
+
+.service-page .content {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background: #fdb44b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 600px;
+    /* Increased width */
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-family: 'Bebas Neue', cursive;
+    color: #000000;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 15px;
+    /* Increased padding */
+    margin-bottom: 20px;
+    /* Increased margin-bottom */
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    /* Applied font family */
+    font-size: 1.1em;
+    /* Increased font size */
+}
+
+form textarea {
+    height: 200px;
+    /* Increased height */
+}
+
+form input[type="submit"] {
+    background: #000000;
+    color: #fff;
+    padding: 15px 30px;
+    /* Increased padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 1.1em;
+    /* Increased font size */
+    font-family: 'Bebas Neue', cursive;
+    /* Applied font family */
+}
+
+form input[type="submit"]:hover {
+    background: #feffdf;
+    color: #000000;
+}

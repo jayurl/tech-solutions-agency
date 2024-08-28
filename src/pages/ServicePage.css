@@ -1,0 +1,64 @@
+/* src/pages/ServicePage.css */
+.service-page {
+    padding: 3em 0;
+    background: #000000;
+    text-align: center;
+}
+
+.service-page h1 {
+    margin-bottom: 1em;
+    color: #fdb44b;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.service-page p {
+    max-width: 600px;
+    margin: 0 auto 2em;
+    color: #fdb44b;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.service-page .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.service-page .content .feature {
+    background: #fdb44b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-page .content .feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-page .content .feature h2 {
+    margin-bottom: 10px;
+    color: #000000;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.service-page .content .feature p {
+    color: #000000;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .service-page .content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-page .content .feature {
+        padding: 15px;
+    }
+}

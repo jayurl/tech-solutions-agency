@@ -1,0 +1,62 @@
+/* src/pages/About.css */
+.about-page {
+    padding: 3em 0;
+    background: #000000;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.about-page h1 {
+    margin-bottom: 1em;
+    color: #fdb44b;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.about-page p {
+    max-width: 800px;
+    margin: 0 auto 2em;
+    color: #fdb44b;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.about-section {
+    background: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    text-align: left;
+}
+
+.about-section h2 {
+    margin-bottom: 10px;
+    color: #fdb44b;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.about-section ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.about-section ul li {
+    color: #fdb44b;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.about-section a {
+    color: #fdb44b;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.about-section a:hover {
+    color: #fdb44b;
+}
